@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartEnglish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="tablet.css">
+     <link rel="stylesheet" href="bigtablet.css">
+     <link rel="stylesheet" href="minidesktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+        <div class="logo">
+            Smart<span class="purple">English</span>
+        </div>
+
+        <div class="burger-icon" id="burgerIcon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#main" class="menu">Главная</a>
+    <a href="#aboutme" class="menu">О нас</a>
+    <a href="#courses" class="menu">Курсы</a>
+    <a href="#feedback" class="menu">Отзывы</a>
+    <a href="#questions" class="menu">Вопросы</a>
+    <a href="#contacts" class="menu">Контакты</a>
+    <a href="https://wa.me/+77761518592" class="btn mobile-btn">Написать нам</a>
+  </nav>
+
+  
+        <div class="header-texts">
+            <a href="#main" class="menu">Главная</a>
+    <a href="#aboutme" class="menu">О нас</a>
+    <a href="#courses" class="menu">Курсы</a>
+    <a href="#feedback" class="menu">Отзывы</a>
+    <a href="#questions" class="menu">Вопросы</a>
+    <a href="#contacts" class="menu">Контакты</a>
+        </div>
+            <a href="https://wa.me/+77761518592"  class="btn" id="HeaderBtn">Написать нам</a>
+    </header>
+
+    <div class="hero-block" id="main">
+        <div class="for-phone">
+            <p class="big-text width-main">Английский это легко и с удовольствием!</p>
+            <p class="medium-text">Онлайн и офлайн занятия с результатом уже через 1 месяц</p>
+            
+            <div href="https://wa.me/+77761518592" class="button"><button class="btn2" id="openModal">Записаться на пробный урок</button></div>
+        </div>
+        <div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModal">&times;</span>
+    <h2>Запишитесь на пробный урок</h2>
+    <form name="trial-lesson" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="trial-lesson" />
+      
+      <label>
+        Ваше имя:
+        <input type="text" name="name" required />
+      </label>
+      <label>
+        Ваш номер телефона:
+        <input type="tel" name="phone" required />
+      </label>
+      
+      <button type="submit">Оставить заявку</button>
+      <p class="form-note">Мы свяжемся с вами в ближайшее время!</p>
+    </form>
+  </div>
+</div>
+        <img src="img/main.png" alt="BigBooksImg" class="main-img">
+    </div>
+
+
+    <section class="aboutme" id="aboutme">
+        <div class="big-text center">Почему выбирают нас?</div>
+
+        <div class="all-about">
+            <div class="one-about">
+                <img src="img/icon1.png" alt="icon" class="icon">
+                <div class="about-text">Преподаватели с опытом 5+ лет</div>
+            </div>
+
+            <div class="one-about">
+                <img src="img/icon2.png" alt="icon" class="icon">
+                <div class="about-text">Удобный график занятий</div>
+            </div>
+
+            <div class="one-about">
+                <img src="img/icon3.png" alt="icon" class="icon">
+                <div class="about-text"> Современная методика </div>
+            </div>
+
+            <div class="one-about">
+                <img src="img/icon4.png" alt="icon" class="icon">
+                <div class="about-text">Учеба онлайн и офлайн</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="courses" id="courses">
+         <div class="big-text center">Курсы для всех уровней</div>
+
+         <div class="all-carts">
+            <div class="cart">
+                <img src="img/photo1.png" alt="photo" class="photo">
+                <div class="cart-texts">
+                    <div class="big-cart-text">Beginner</div>
+                    <div class="medium-cart-text">для тех, кто с нуля</div>
+                    <div class="small-cart-text">Изучим базовую грамматику, лексику и начнём говорить</div>
+
+                    <div class="price">25 000 ₸ / месяц</div>
+                </div>
+            </div>
+
+            <div class="cart">
+                <img src="img/photo2.png" alt="photo" class="photo">
+                <div class="cart-texts">
+                    <div class="big-cart-text">Intermidate</div>
+                    <div class="medium-cart-text">для продолжающих</div>
+                    <div class="small-cart-text">Разовьём разговорную речь, аудирование и словарный запас</div>
+
+                    <div class="price">35 000 ₸ / месяц</div>
+                </div>
+            </div>
+
+            <div class="cart">
+                <img src="img/photo3.png" alt="photo" class="photo">
+                <div class="cart-texts">
+                    <div class="big-cart-text">English for Work</div>
+                    <div class="medium-cart-text">деловой английский</div>
+                    <div class="small-cart-text">Интервью, переписка, презентации, говорите уверенно</div>
+
+                    <div class="price">45 000 ₸ / месяц</div>
+                </div>
+            </div>
+
+            <div class="cart">
+                <img src="img/photo4.png" alt="photo" class="photo">
+                <div class="cart-texts">
+                    <div class="big-cart-text">IELTS/TOEFL </div>
+                    <div class="medium-cart-text">для сдачи экзаменов</div>
+                    <div class="small-cart-text">Готовим к экзаменам по авторской программе</div>
+
+                    <div class="price">50 000 ₸ / месяц</div>
+                </div>
+            </div>
+         </div>
+    </section>
+
+
+    <section class="feedback" id="feedback">
+        <div class="big-text center">Что говорят наши ученики</div>
+
+        <div class="all-feedbacks">
+            <img src="img/line.png" alt="line" class="line">
+
+            <div class="feedback-container">
+                <img src="img/avatar1.png" alt="avatar" class="avatar">
+                <div class="right-feedback">
+                    <div class="name-stars">
+                        <div class="name">Алия Сериковна</div>
+                        <img src="img/stars.png" alt="stars" class="stars">
+                    </div>
+                    <div class="feedback-text">Прошла Beginner — теперь спокойно общаюсь в поездках!</div>
+                    <div class="day-likes">
+                        <div class="day">14 дней назад</div>
+                        <div class="likes">
+                            <div class="cout-like" id="CoutLike">36</div>
+                           <div class="mask-icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <img src="img/line.png" alt="line" class="line">
+
+            <div class="feedback-container">
+                <img src="img/avatar2.png" alt="avatar" class="avatar">
+                <div class="right-feedback">
+                    <div class="name-stars">
+                        <div class="name">Ербол Сериков</div>
+                        <img src="img/stars.png" alt="stars" class="stars">
+                    </div>
+                    <div class="feedback-text">Преподаватель объясняет понятно, уроки проходят быстро.</div>
+                    <div class="day-likes">
+                        <div class="day">27 дней назад</div>
+                        <div class="likes">
+                            <div class="cout-like" id="CoutLike">42</div>
+                            <div class="mask-icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <img src="img/line.png" alt="line" class="line">
+
+            <div class="feedback-container">
+                <img src="img/avatar3.png" alt="avatar" class="avatar">
+                <div class="right-feedback">
+                    <div class="name-stars">
+                        <div class="name">Сания Жомартова</div>
+                        <img src="img/stars.png" alt="stars" class="stars">
+                    </div>
+                    <div class="feedback-text">Училась онлайн,очень понравилось!Собираюсь сдавать IELTS с этими знаниями,спасибо учителям.</div>
+                    <div class="day-likes">
+                        <div class="day">8 дней назад</div>
+                        <div class="likes">
+                            <div class="cout-like" id="CoutLike">56</div>
+                            <div class="mask-icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/line.png" alt="line" class="line">
+            
+        </div>
+    </section>
+
+
+    <section class="questions" id="questions">
+        <div class="big-text center">Вопросы и ответы</div>
+
+        <div class="all-questions">
+            <div class="question-container">
+                <div class="question">
+                <div class="question-text">Сколько длится занятие?</div>
+                <div class="question-btn"><img src="img/arrow.png" alt="arrow" class="arrow-btn"></div>
+                </div>
+                <div class="answer">
+                        1.Стандартное занятие — 60 минут (индивидуально) / 90 минут (в группе). <br>
+                        2.Интенсивные курсы — 120 минут (с перерывом).<br>
+                        3.Для детей младше 10 лет — 45 минут (чтобы сохранить концентрацию).<br>
+                </div>
+            </div>
+
+
+            <div class="question-container">
+                <div class="question">
+                <div class="question-text">Можно ли заниматься онлайн?</div>
+                <div class="question-btn"><img src="img/arrow.png" alt="arrow" class="arrow-btn"></div>
+                </div>
+                <div class="answer">
+                    1.Онлайн (Zoom/Skype) — с интерактивными материалами.<br>
+                    2.Офлайн (если вы в Астане).<br>
+                    3.Гибрид — можно чередовать форматы.<br>
+                </div>
+            </div>
+
+
+            <div class="question-container">
+                <div class="question">
+                <div class="question-text">Есть ли у вас пробный урок?</div>
+                <div class="question-btn"><img src="img/arrow.png" alt="arrow" class="arrow-btn"></div>
+                </div>
+                <div class="answer">
+                    Да, бесплатный пробный урок на 60 минут.
+                </div>
+            </div>
+
+
+            <div class="question-container">
+                <div class="question">
+                <div class="question-text">Как проходит оплата?</div>
+                <div class="question-btn"><img src="img/arrow.png" alt="arrow" class="arrow-btn"></div>
+                </div>
+                <div class="answer">
+                    Доступные способы:<br>
+                    1.Разово за курс (скидка 10%).<br>
+                    2.Помесячно (картой, Kaspi, переводом).<br>
+                    3.После пробного урока — оплачиваете только если понравилось.<br>
+                    🔐Гарантия: Возврат средств, если не подойдет формат (первые 2 занятия).
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contacts">
+        <div class="all-footer">
+        <div class="left-footer">
+            <div class="logo">Smart<span class="purple">English</span></div>
+            <div class="under-logo">Английский это легко и с удовольствием!</div>
+        </div>
+
+        <div class="right-footer">
+            <div class="footer-container">
+                <div class="big-footer-text">Меню</div>
+                <a href="#main" class="footer-menu">Главная</a>
+                <a href="#aboutme" class="footer-menu">О нас</a>
+                <a href="#courses" class="footer-menu">Курсы</a>
+                <a href="#feedback" class="footer-menu">Отзывы</a>
+                <a href="#questions" class="footer-menu">Вопросы</a>
+                <a href="#contacts" class="footer-menu">Контакы</a>
+            </div>
+
+
+            <div class="footer-container">
+                <div class="big-footer-text">Контакты</div>
+                <a href="https://wa.me/+77761518592" class="footer-menu">Телефон:+7 776 151 8592</a>
+                <a href="mailto:bakendaniyar@gmail.com" class="footer-menu">Email:bakendaniyar@gmail.com</a>
+            </div>
+
+
+
+            <div class="footer-container">
+                <div class="big-footer-text">Соц-сети</div>
+                <div class="messangers">
+                <a href="https://wa.me/+77761518592"><img src="img/whatsapp.png" alt="whatsapp" class="messanger"></a>
+                <a href="https://www.instagram.com/daniyar_baken/"><img src="img/instagram.png" alt="instagram" class="messanger"></a>
+                <a href="https://t.me/BakenDaniyar"><img src="img/telegram.png" alt="telegram" class="messanger"></a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="mycompany">© 2025 Baken Daniyar. Все права защищены</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
