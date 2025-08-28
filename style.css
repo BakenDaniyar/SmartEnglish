@@ -282,9 +282,8 @@ margin-top:100px;
 .all-carts{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-margin-left: 60px;
-margin-right: 60px;
+    justify-content: center;
+gap:15px;
 }
 .cart{
 display: flex;
